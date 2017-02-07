@@ -8,7 +8,7 @@ var stringifiableObjects = [
   null,
   true,
   false,
-  'Hello world',
+  //'Hello world',
   [],
   [8],
   ['hi'],
@@ -19,7 +19,7 @@ var stringifiableObjects = [
   {},
   {'a': 'apple'},
   {'foo': true, 'bar': false, 'baz': null},
-  {'boolean, true': true, 'boolean, false': false, 'null': null },
+  {'boolean, true': true, 'boolean, false': false, 'null':    null },
   // basic nesting
   {'a': {'b': 'c'}},
   {'a': ['b', 'c']},
